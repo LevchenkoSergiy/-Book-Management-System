@@ -1,0 +1,23 @@
+{
+    "name": "mylibrary/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mylibrary\\App\\": "public/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mylibrary\\App\\Tests\\": "public/tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergiy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^11.4@dev"
+    }
+}
